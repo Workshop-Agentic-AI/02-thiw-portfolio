@@ -5,8 +5,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/notify-completion.sh",
-            "timeout": 10
+            "command": "python3 $CLAUDE_PROJECT_DIR/.claude/hooks/notify-completion.py",
+            "timeout": 30
           }
         ]
       }
