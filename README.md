@@ -29,6 +29,26 @@ npm run dev
 
 See [CLAUDE.md](./CLAUDE.md) for AI-assisted development workflows and short codes.
 
+### Short Codes
+
+| Code | Description |
+|------|-------------|
+| `ccc` | Create context issue and compact conversation |
+| `nnn` | Smart planning - create implementation plan |
+| `gogogo` | Execute the most recent plan step-by-step |
+| `lll` | List project status (issues, PRs, commits) |
+| `rrr` | Create session retrospective |
+
+### Workflow
+
+```
+ccc → nnn → gogogo
+```
+
+1. `ccc` - Save current context
+2. `nnn` - Analyze and create plan (GitHub issue)
+3. `gogogo` - Execute the plan
+
 ## License
 
 MIT
