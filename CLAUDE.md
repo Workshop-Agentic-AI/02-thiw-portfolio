@@ -505,6 +505,22 @@ Closes #[issue-number]
 -   *Example: Appreciates clear, actionable feedback and well-defined tasks.*
 -   **Time zone preference: GMT+7 (Bangkok/Asia)**
 
+### Process Discipline (2025-12-23)
+-   **Pattern**: Always create issue BEFORE implementing features - even for internal tooling
+-   **Anti-Pattern**: Committing features without corresponding GitHub issues loses planning/discussion value
+-   **Pattern**: Retroactive documentation is acceptable but less valuable than upfront planning
+-   **Discovery**: User values process discipline, not just working code
+
+### Communication Clarity (2025-12-23)
+-   **Pattern**: Ask clarifying questions when technical terms have multiple meanings (subagent vs skill vs command)
+-   **Anti-Pattern**: Assuming intent without confirmation - wastes time implementing wrong solution
+-   **Discovery**: "Subagent" in Claude Code context means Task tool agent, not slash command skill
+
+### Multi-Subagent Pattern (2025-12-23)
+-   **Pattern**: Run multiple Task subagents in parallel for speed - analysis, code generation, etc.
+-   **Pattern**: Use `model: haiku` for analysis tasks (fast, cheap), default for code generation (quality)
+-   **Discovery**: 3 parallel agents can generate 70KB of code in seconds - highly scalable approach
+
 ## Troubleshooting
 
 ### Common Issues
@@ -555,5 +571,5 @@ Ctrl+b, d              # Detach from session
 -   [ ] Environment variables set
 -   [ ] Git configured
 
-**Last Updated**: 2025-12-22
+**Last Updated**: 2025-12-23
 **Version**: 1.0.0

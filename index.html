@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thiw - Full Stack Developer Portfolio. พอร์ตโฟลิโอของนักพัฒนาเว็บไซต์">
+    <meta name="keywords" content="Full Stack Developer, Web Developer, Portfolio, Thiw, HTML, CSS, JavaScript, Python">
+    <meta name="author" content="Thiw">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Thiw - Full Stack Developer">
+    <meta property="og:description" content="พอร์ตโฟลิโอของนักพัฒนาเว็บไซต์">
+    <meta property="og:type" content="website">
+
+    <title>Thiw - Full Stack Developer Portfolio</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home">Thiw</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#about">เกี่ยวกับ</a></li>
+                    <li><a href="#skills">ทักษะ</a></li>
+                    <li><a href="#projects">ผลงาน</a></li>
+                    <li><a href="#contact">ติดต่อ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">สวัสดี ผม <span class="highlight">Thiw</span></h1>
+                <p class="hero-tagline">Full Stack Developer</p>
+                <p class="hero-description">สร้างสรรค์เว็บไซต์และแอปพลิเคชันที่สวยงามและใช้งานได้จริง</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">ดูผลงาน</a>
+                    <a href="#contact" class="btn btn-secondary">ติดต่อเรา</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub" class="social-link">
+                        <i class="icon-github"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn" class="social-link">
+                        <i class="icon-linkedin"></i>
+                    </a>
+                    <a href="#" aria-label="Twitter" class="social-link">
+                        <i class="icon-twitter"></i>
+                    </a>
+                    <a href="#" aria-label="Email" class="social-link">
+                        <i class="icon-email"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">เกี่ยวกับผม</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/profile-placeholder.jpg" alt="Thiw Profile Picture">
+                    </div>
+                    <div class="about-text">
+                        <h3>สวัสดีครับ! ผมคือ Thiw</h3>
+                        <p>
+                            ผมเป็น Full Stack Developer ที่มีความหลงใหลในการสร้างเว็บแอปพลิเคชัน
+                            ที่ทันสมัยและใช้งานง่าย ผมมีประสบการณ์ในการพัฒนาทั้ง Frontend และ Backend
+                            โดยใช้เทคโนโลยีที่ทันสมัยและเหมาะสมกับงาน
+                        </p>
+                        <p>
+                            ผมชอบเรียนรู้สิ่งใหม่ๆ และติดตามเทคโนโลยีใหม่ๆ อยู่เสมอ
+                            เพื่อนำมาประยุกต์ใช้ในการพัฒนาโปรเจกต์ให้มีประสิทธิภาพมากขึ้น
+                        </p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <span class="info-label">ชื่อ:</span>
+                                <span class="info-value">Thiw</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">อีเมล:</span>
+                                <span class="info-value">thiw@example.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">ที่อยู่:</span>
+                                <span class="info-value">กรุงเทพมหานคร, ประเทศไทย</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">สถานะ:</span>
+                                <span class="info-value">พร้อมรับงาน</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">ติดต่อเรา</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">ทักษะของผม</h2>
+                <p class="section-description">
+                    เทคโนโลยีและเครื่องมือที่ผมใช้ในการพัฒนา
+                </p>
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <h3 class="category-title">Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-html5"></i>
+                                </div>
+                                <h4>HTML5</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-css3"></i>
+                                </div>
+                                <h4>CSS3</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-javascript"></i>
+                                </div>
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-react"></i>
+                                </div>
+                                <h4>React</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category">
+                        <h3 class="category-title">Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-python"></i>
+                                </div>
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-nodejs"></i>
+                                </div>
+                                <h4>Node.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="82"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-database"></i>
+                                </div>
+                                <h4>SQL/NoSQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="78"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-api"></i>
+                                </div>
+                                <h4>REST API</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Others -->
+                    <div class="skill-category">
+                        <h3 class="category-title">เครื่องมือ & อื่นๆ</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-git"></i>
+                                </div>
+                                <h4>Git</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-docker"></i>
+                                </div>
+                                <h4>Docker</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-figma"></i>
+                                </div>
+                                <h4>Figma</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="icon-vscode"></i>
+                                </div>
+                                <h4>VS Code</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">ผลงานของผม</h2>
+                <p class="section-description">
+                    โปรเจกต์ที่ผมได้พัฒนาและมีส่วนร่วม
+                </p>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1-placeholder.jpg" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Project">
+                                    <i class="icon-link"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View Code">
+                                    <i class="icon-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-description">
+                                แพลตฟอร์มอีคอมเมิร์ซที่สมบูรณ์แบบ พร้อมระบบจัดการสินค้า ตะกร้าสินค้า
+                                และระบบชำระเงินออนไลน์ที่ปลอดภัย
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">ดูเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2-placeholder.jpg" alt="Task Management App">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Project">
+                                    <i class="icon-link"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View Code">
+                                    <i class="icon-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                แอปพลิเคชันจัดการงานแบบ Real-time พร้อมระบบทำงานร่วมกัน
+                                สามารถแชร์งานและติดตามความคืบหน้าได้อย่างมีประสิทธิภาพ
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">ดูเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project3-placeholder.jpg" alt="Weather Dashboard">
+                            <div class="project-overlay">
+                                <a href="#" class="overlay-link" aria-label="View Project">
+                                    <i class="icon-link"></i>
+                                </a>
+                                <a href="#" class="overlay-link" aria-label="View Code">
+                                    <i class="icon-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">
+                                แดชบอร์ดแสดงสภาพอากาศที่สวยงาม เชื่อมต่อกับ Weather API
+                                แสดงพยากรณ์อากาศแบบละเอียดพร้อมแผนที่และกราฟ
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">Weather API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">ดูเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">ติดต่อเรา</h2>
+                <p class="section-description">
+                    มีโปรเจกต์ที่น่าสนใจหรือต้องการปรึกษา? ติดต่อผมได้เลย!
+                </p>
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">ชื่อ <span class="required">*</span></label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="กรุณากรอกชื่อของคุณ"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="email">อีเมล <span class="required">*</span></label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="your.email@example.com"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">หัวข้อ <span class="required">*</span></label>
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    placeholder="หัวข้อที่ต้องการติดต่อ"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="message">ข้อความ <span class="required">*</span></label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="เขียนข้อความของคุณที่นี่..."
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                ส่งข้อความ
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3>ข้อมูลติดต่อ</h3>
+                        <div class="info-items">
+                            <div class="info-item-contact">
+                                <div class="info-icon">
+                                    <i class="icon-location"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h4>ที่อยู่</h4>
+                                    <p>กรุงเทพมหานคร<br>ประเทศไทย</p>
+                                </div>
+                            </div>
+                            <div class="info-item-contact">
+                                <div class="info-icon">
+                                    <i class="icon-email-alt"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h4>อีเมล</h4>
+                                    <p><a href="mailto:thiw@example.com">thiw@example.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item-contact">
+                                <div class="info-icon">
+                                    <i class="icon-phone"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h4>โทรศัพท์</h4>
+                                    <p><a href="tel:+66123456789">+66 12-345-6789</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links-contact">
+                            <h4>ติดตามเรา</h4>
+                            <div class="social-icons">
+                                <a href="#" aria-label="GitHub" class="social-icon">
+                                    <i class="icon-github"></i>
+                                </a>
+                                <a href="#" aria-label="LinkedIn" class="social-icon">
+                                    <i class="icon-linkedin"></i>
+                                </a>
+                                <a href="#" aria-label="Twitter" class="social-icon">
+                                    <i class="icon-twitter"></i>
+                                </a>
+                                <a href="#" aria-label="Facebook" class="social-icon">
+                                    <i class="icon-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Thiw</h3>
+                    <p>Full Stack Developer ที่มุ่งมั่นสร้างสรรค์เว็บแอปพลิเคชันที่ดีที่สุด</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="GitHub">
+                            <i class="icon-github"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>เมนูหลัก</h4>
+                    <ul>
+                        <li><a href="#home">หน้าแรก</a></li>
+                        <li><a href="#about">เกี่ยวกับ</a></li>
+                        <li><a href="#skills">ทักษะ</a></li>
+                        <li><a href="#projects">ผลงาน</a></li>
+                        <li><a href="#contact">ติดต่อ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>ติดต่อ</h4>
+                    <ul>
+                        <li>กรุงเทพมหานคร, ประเทศไทย</li>
+                        <li><a href="mailto:thiw@example.com">thiw@example.com</a></li>
+                        <li><a href="tel:+66123456789">+66 12-345-6789</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Thiw. สงวนลิขสิทธิ์.</p>
+                <p>Built with <span class="heart">❤</span> by Thiw</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="icon-arrow-up"></i>
+    </button>
+</body>
+</html>
