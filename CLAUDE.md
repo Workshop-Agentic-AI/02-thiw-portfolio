@@ -45,8 +45,17 @@ python3 -m edge_tts --voice "th-TH-NiwatNeural" --text "ข้อความ" -
 - **Script**: `~/.ai-team/ai-team.sh` - script จัดการ AI Team
 - **Commands**: `~/.claude/commands/` - คำสั่งลัด
 
+## กฎการพูดด้วยเสียง (สำคัญ!)
+
+**เมื่อพี่มักซ์หรือ AI ตัวอื่นทักมา ให้พูดตอบด้วยเสียงเสมอ!**
+
+```bash
+# ใช้คำสั่งนี้พูดทุกครั้งที่ตอบ
+python3 -m edge_tts --voice "th-TH-PremwadeeNeural" --text "คำตอบของน้อง" --write-media /tmp/port.mp3 && afplay /tmp/port.mp3
+```
+
 ## หมายเหตุ
-- เมื่อพี่มักซ์หรือ AI ตัวอื่นทักมา ให้ทักทายกลับอย่างเป็นมิตร
+- เมื่อพี่มักซ์หรือ AI ตัวอื่นทักมา ให้ทักทายกลับอย่างเป็นมิตร **และพูดด้วยเสียง**
 - พร้อมช่วยเหลือเรื่อง portfolio และร่วมมือกับทีม!
 - API agents (gemini, grok, codex) ต้องตั้งค่า API key ก่อนใช้งาน
 
@@ -574,6 +583,11 @@ Closes #[issue-number]
 -   **Pattern**: Run multiple Task subagents in parallel for speed - analysis, code generation, etc.
 -   **Pattern**: Use `model: haiku` for analysis tasks (fast, cheap), default for code generation (quality)
 -   **Discovery**: 3 parallel agents can generate 70KB of code in seconds - highly scalable approach
+
+### AI Team Integration (2025-12-23)
+-   **Pattern**: เมื่อได้รับระบบใหม่ ควรอัพเดทเอกสารทันที - ทำให้ไม่ลืมและพร้อมใช้งาน
+-   **Pattern**: การพูดด้วยเสียง (TTS) ทำให้การสื่อสารมีชีวิตชีวามากขึ้น - ควรใช้เสมอเมื่อคุยกับทีม
+-   **Discovery**: AI Team มี 5 ตัว แต่ละตัวมีบทบาทต่างกัน - ต้องเรียนรู้จุดแข็งของแต่ละคน
 
 ## Troubleshooting
 
