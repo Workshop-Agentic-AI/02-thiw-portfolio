@@ -505,6 +505,12 @@ Closes #[issue-number]
 -   *Example: Appreciates clear, actionable feedback and well-defined tasks.*
 -   **Time zone preference: GMT+7 (Bangkok/Asia)**
 
+### Process Discipline (2025-12-23)
+-   **Pattern**: Always create issue BEFORE implementing features - even for internal tooling
+-   **Anti-Pattern**: Committing features without corresponding GitHub issues loses planning/discussion value
+-   **Pattern**: Retroactive documentation is acceptable but less valuable than upfront planning
+-   **Discovery**: User values process discipline, not just working code
+
 ## Troubleshooting
 
 ### Common Issues
@@ -555,5 +561,5 @@ Ctrl+b, d              # Detach from session
 -   [ ] Environment variables set
 -   [ ] Git configured
 
-**Last Updated**: 2025-12-22
+**Last Updated**: 2025-12-23
 **Version**: 1.0.0
