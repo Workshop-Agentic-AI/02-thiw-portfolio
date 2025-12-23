@@ -511,6 +511,11 @@ Closes #[issue-number]
 -   **Pattern**: Retroactive documentation is acceptable but less valuable than upfront planning
 -   **Discovery**: User values process discipline, not just working code
 
+### Communication Clarity (2025-12-23)
+-   **Pattern**: Ask clarifying questions when technical terms have multiple meanings (subagent vs skill vs command)
+-   **Anti-Pattern**: Assuming intent without confirmation - wastes time implementing wrong solution
+-   **Discovery**: "Subagent" in Claude Code context means Task tool agent, not slash command skill
+
 ## Troubleshooting
 
 ### Common Issues
