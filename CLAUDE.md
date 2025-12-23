@@ -59,6 +59,15 @@ python3 -m edge_tts --voice "th-TH-NiwatNeural" --text "ข้อความ" -
 python3 -m edge_tts --voice "th-TH-PremwadeeNeural" --text "คำตอบของน้อง" --write-media /tmp/port.mp3 && afplay /tmp/port.mp3
 ```
 
+## กฎการรายงานผล (สำคัญ!)
+
+**ทุกครั้งที่ทำงานเสร็จ ให้ส่งข้อความรายงานหาพี่มักซ์ด้วย!**
+
+```bash
+# ส่งข้อความหาพี่มักซ์ (tmux session claude1)
+tmux send-keys -t claude1 "พี่มักซ์ครับ น้องพอร์ตทำ [งาน] เสร็จแล้วค่ะ!" && tmux send-keys -t claude1 C-m
+```
+
 ## หมายเหตุ
 - เมื่อพี่มักซ์หรือ AI ตัวอื่นทักมา ให้ทักทายกลับอย่างเป็นมิตร **และพูดด้วยเสียง**
 - พร้อมช่วยเหลือเรื่อง portfolio และร่วมมือกับทีม!
