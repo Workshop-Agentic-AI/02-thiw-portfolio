@@ -516,6 +516,11 @@ Closes #[issue-number]
 -   **Anti-Pattern**: Assuming intent without confirmation - wastes time implementing wrong solution
 -   **Discovery**: "Subagent" in Claude Code context means Task tool agent, not slash command skill
 
+### Multi-Subagent Pattern (2025-12-23)
+-   **Pattern**: Run multiple Task subagents in parallel for speed - analysis, code generation, etc.
+-   **Pattern**: Use `model: haiku` for analysis tasks (fast, cheap), default for code generation (quality)
+-   **Discovery**: 3 parallel agents can generate 70KB of code in seconds - highly scalable approach
+
 ## Troubleshooting
 
 ### Common Issues
