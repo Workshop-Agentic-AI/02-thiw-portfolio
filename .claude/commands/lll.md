@@ -1,5 +1,5 @@
 ---
-description: List project status (issues, PRs, commits)
+description: แสดงสถานะโปรเจกต์ (issues, PRs, commits)
 ---
 
 # List Project Status (lll)

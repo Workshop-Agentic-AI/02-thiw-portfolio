@@ -1,5 +1,5 @@
 ---
-description: Execute the most recent plan step-by-step
+description: ลุยทำตามแผนล่าสุดทีละขั้นตอน
 argument-hint: "[issue number]"
 ---
 

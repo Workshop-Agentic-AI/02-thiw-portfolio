@@ -1,5 +1,5 @@
 ---
-description: Create context issue and compact the conversation
+description: สร้าง context issue และบีบอัดการสนทนา
 ---
 
 # Create Context & Compact (ccc)

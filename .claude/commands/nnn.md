@@ -1,5 +1,5 @@
 ---
-description: Smart planning - Create detailed implementation plan
+description: วางแผนอัจฉริยะ - สร้างแผน implementation อย่างละเอียด
 argument-hint: "[issue number]"
 ---
 

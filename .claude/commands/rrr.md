@@ -1,5 +1,5 @@
 ---
-description: Create comprehensive session retrospective
+description: สร้างเอกสารสรุป session อย่างละเอียด
 ---
 
 # Session Retrospective (rrr)
